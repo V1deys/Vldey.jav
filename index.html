@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Video jav Viral</title>
+<title>Video Viral</title>
 
 <style>
 *{
@@ -89,7 +89,7 @@ body{
 }
 
 .title h1{
-    font-size:45px;
+    font-size:42px;
     color:#ff2d6f;
 }
 
@@ -123,16 +123,25 @@ body{
     background:#ff4d88;
 }
 
+/* BANNER */
+.banner{
+    margin-top:25px;
+    display:flex;
+    justify-content:center;
+}
+
 /* GALLERY */
 .gallery{
     display:grid;
-    grid-template-columns:repeat(3,1fr);
+    grid-template-columns:repeat(4,1fr);
     gap:10px;
     margin-top:25px;
 }
 
 .gallery img{
     width:100%;
+    height:140px;
+    object-fit:cover;
     border-radius:10px;
     border:2px solid #ff2d6f;
     cursor:pointer;
@@ -151,7 +160,7 @@ body{
 @media(max-width:768px){
 
 .title h1{
-    font-size:30px;
+    font-size:28px;
 }
 
 .play-btn{
@@ -164,6 +173,15 @@ body{
     grid-template-columns:repeat(2,1fr);
 }
 
+.gallery img{
+    height:120px;
+}
+
+.watch-btn{
+    font-size:18px;
+    padding:15px;
+}
+
 }
 </style>
 </head>
@@ -171,7 +189,7 @@ body{
 <body>
 
 <div class="warning">
-⚠️ VIDEO KHUSUS 18+ • STREAMING GRATIS
+⚠️ VIDEO VIRAL • KHUSUS 18+ • STREAMING GRATIS
 </div>
 
 <div class="hero">
@@ -194,7 +212,7 @@ body{
 <!-- TITLE -->
 <div class="title">
 <h1>VIDEO VIRAL PALING DICARI!</h1>
-<p>Klik tombol di bawah untuk mulai menonton</p>
+<p>Klik tombol di bawah untuk mulai menonton video lengkapnya</p>
 </div>
 
 <!-- BUTTONS -->
@@ -215,6 +233,24 @@ body{
 <a href="#" class="watch-btn" onclick="openAd()">
 🎬 STREAMING HD
 </a>
+
+</div>
+
+<!-- BANNER IKLAN -->
+<div class="banner">
+
+<script>
+  atOptions = {
+    'key' : '2baef34f8c9b00d8085f5ce78472a940',
+    'format' : 'iframe',
+    'height' : 50,
+    'width' : 320,
+    'params' : {}
+  };
+</script>
+
+<script src="https://injusticebakery.com/2baef34f8c9b00d8085f5ce78472a940/invoke.js">
+</script>
 
 </div>
 
@@ -247,4 +283,4 @@ function openAd(){
 </script>
 
 </body>
-  </html>
+    </html>    
